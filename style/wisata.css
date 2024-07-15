@@ -1,0 +1,84 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* membuat line dibawah navigasi */
+.nav-item:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #ffffff;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+/* ukuran font navbar */
+.navbar-collapse {
+  font-size: 17px;
+}
+
+/* CSS jumbotron/hero section */
+#herosection {
+  background-color: #86340a;
+}
+
+#herosection h1 {
+  font-weight: bold;
+  font-family: "Courgette", cursive;
+  font-size: 5rem;
+  color: #f4ecf2;
+}
+
+/* CSS image hero section */
+#herosection .col-md {
+  padding-top: 2rem;
+}
+
+#sejarah{
+  background-color: #f9f5e7;
+  color: #86340a;
+}
+#sejarah a {
+  color: #86340a;
+  font-weight: bold;
+}
+
+#sejarah h1 {
+  font-family: "Courgette", cursive;
+  font-weight: bold;
+  font-size: 6rem;
+}
+
+#sejarah h2 {
+  font-family: "Courgette", cursive;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+#sejarah h3 {
+  font-family: "Courgette", cursive;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+#sejarah h3 {
+  font-family: "Courgette", cursive;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+#sejarah h4 {
+  font-family: "Courgette", cursive;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+#sejarah h6 {
+  font-family: "Courgette", cursive;
+  font-weight: 300;
+  padding-left: 50px;
+}
+
+#sejarah .kaligua,.restarea,.cemara,.curug,.sinok p {
+  padding-left: 75px;
+  padding-right: 75px;
+}

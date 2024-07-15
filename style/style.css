@@ -1,0 +1,212 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* membuat line dibawah navigasi */
+.nav-item:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #ffffff;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+/* ukuran font navbar */
+.navbar-collapse {
+  font-size: 17px;
+}
+
+/* CSS jumbotron/hero section */
+#herosection {
+  background-color: #86340a;
+  color: #f4ecf2;
+  font-weight: bold;
+  padding-bottom: 4rem;
+}
+#atas {
+  background-color: #86340a;
+}
+
+/* CSS h1 hero section*/
+#herosection .col-md-4 {
+  padding-top: 10rem;
+}
+
+#herosection h1 {
+  color: white;
+  font-family: "Rampart One", cursive;
+  font-size: 4.3rem;
+  font-weight: 400;
+}
+
+
+#herosection p {
+  color: white;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+/* CSS image hero section */
+#herosection .col-md-6 {
+  padding-top: 2rem;
+}
+
+/* container fitur panel */
+.fitur-panel {
+  background-color: #f9f5e7;
+  color: #1d1350;
+  border-radius: 12px;
+  margin-top: -90px;
+}
+
+.section-stast {
+  margin-top: -50px;
+}
+
+.section-stast .stast-detail {
+  padding-top: 15px;
+  background-color: #f9f5e7;
+  padding-left: 40px;
+}
+
+.section-stast .stast-kanan {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.section-stast .stast-kiri {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.section-stast h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-stast p {
+  font-size: 20px;
+  font-weight: medium;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: white;
+  margin-top: -50px;
+  margin-bottom: -380px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 10px;
+}
+
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: black;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 460px;
+  background-color: #ddd;
+  color: #ffffff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #FF9E53;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #cfc8c8;
+  color: #86340a;
+}
+
+.section-networks {
+  background-color: white;
+  /*margin-top: -170px;
+  padding-top: 100px;
+  padding-bottom: 50px;*/
+}
+
+.section-networks h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-networks p {
+  font-size: 14px;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+#sejarah {
+  background-color: #f9f5e7;
+  color: #86340a;
+}
+#sejarah a {
+  color: #86340a;
+  font-weight: bold;
+}
+
+#sejarah h2 {
+  font-family: "Courgette", cursive;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+#sejarah h3 {
+  font-family: "Courgette", cursive;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+#ekraf {
+  padding-top: 150px;
+  background-color: #f9f5e7;
+  color: #86340a;
+}
+
+#ekraf a {
+  color: #86340a;
+  font-weight: bold;
+}
+
+#ekraf h2 {
+  font-family: "Courgette", cursive;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+#ekraf h3 {
+  font-family: "Courgette", cursive;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
